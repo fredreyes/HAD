@@ -231,6 +231,12 @@ label{
     height: 760px!important;
 }
 
+.banner3 {
+    background: url(../images/fondocuatro.jpg)no-repeat center 0px;
+    background-size: cover;
+    height: 760px!important;
+}
+
 /*--header--*/
 /*-- banner --*/
 .banner-header .header{
@@ -970,7 +976,7 @@ div#services {
     color: #fff;
 }
 .offer {
-    background: url(../images/sp2.jpg) no-repeat 0px 0px;
+    background: url(../images/sp3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
