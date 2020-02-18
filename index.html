@@ -23,9 +23,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--//fonts-->
 
-
 </head>
 <body>
+
+<!-- BOTON WHATSAPP-->
+<div class="btn-whatsapp">
+	<a href="https://api.whatsapp.com/send?phone=+505 81325644" target="_blank">
+	<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+	</a>
+</div>
+<!-- FIN BOTON WHATSAPP-->
+
 <div class="banner-top">
 	<div class="banner-header">
 		<!--header-->
@@ -50,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li class="active"><a href="index.html">Inicio</a></li>
 							<li><a href="about.html">Acerca de</a></li>
 							<li><a href="services.html">Servicios</a></li>
-							<li><a href="gallery.html">Galeria</a></li>
+							<li><a href="#">Galeria</a></li>
 							<li><a href="contact.html">Contacto</a></li>
 						</ul>
 					</nav>
@@ -145,56 +153,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<span class="sr-only">Next</span>
 		</a>
     </div> 
-	<div class="agileits_reservation">
-					<form action="#" method="post">
-						<div class="cuisine"> 
-							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-							<input type="text" name="Location" placeholder="Enter name" required="">
-						</div>
-						<div class="phone_email"> 
-							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<input type="text" name="Phone" placeholder="Phone" required=""> 
-						</div>
-						<div class="phone_email1"> 
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							<input type="email" name="Email" placeholder="Email" required="">
-						</div>
-						<div class="clearfix"> </div>
-						<div class="agileits_reservation_grid">
-							<div  class="span1_of_1 book_date"> 
-								<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-								<input class="date" id="datepicker" name="Text" placeholder="Select Date"  type="text" required="">
-							</div>
-							<div class="span1_of_1 section_room"> 
-								<span class="glyphicon glyphicon-time" aria-hidden="true"></span>  
-								<input type="text" name="Time" class="timepicker" value=" Time">	 
-							</div>
-							<div class="span1_of_1 section_room">
-								<!-- start_section_room --> 
-								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-								<select id="country1" class="frm-field sect" required>
-									<option value="">People</option>
-									<option value="1">1 People</option>
-									<option value="2">2 People</option>         
-									<option value="3">More</option>
-								</select> 
-							</div>  
-							<div class="clearfix"></div>
-						</div>
-						<div class="date_btn"> 
-							<input type="submit" value="Book An Appointment" /> 
-						</div> 
-					</form>
-				</div>
+	
  </div>
 	<!-- //slider -->
-<!-- // banner -->
-
+<!-- // banner -->	
 <!-- /About -->
+
 	<div class="w3-about about-gap" id="about">
 		<div class="container">
 			<div class="w3-heading-all">
-				<h3>Acerca de Nosotros</h3>
+				<h3><a style="color: black;" href="about.html">Acerca de Nosotros</a></h3>
 			</div>
 		<div class="w3-about-grids">
 				<div class="col-md-6 w3-about-left-grid">
@@ -237,54 +205,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services" id="services">
 	<div class="container">
 		<div class="w3-heading-all services-head">
-			<h3>Servicios</h3>
+			<h3><a href="services.html" style="color: whitesmoke;">Servicios</a></h3>
 		</div>	
 
 		<div class="w3-services-grids">
 			<div class="col-md-4 w3-services-grids1">
 			<div class="w3-services-grid1">
-				<i class="fa fa-user-md" aria-hidden="true"></i>
-				<h3> Equipo de Calidad</h3>
-				<div class="w3-services-grid1-left">
-					<h4>10 </h4>
-					<p>ipsum</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>5</h4>
-					<p>basusx</p>
-				</div>
+				<h3>Emergencias</h3>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1 ">
 			<div class=" w3-services-grid2">
-		<i class="fa fa-laptop" aria-hidden="true"></i>
-				<h3>Doctores Calificados</h3>
-			<div class="w3-services-grid1-left">
-					<h4>20 </h4>
-					<p>basus</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>10</h4>
-					<p>basus</p>
-				</div>
+				<h3>Cirugia General</h3>	
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid3">
-			<i class="fa fa-hospital-o" aria-hidden="true"></i>
-				<h3>Cirugias Espaciales</h3>
-			<div class="w3-services-grid1-left">
-					<h4>15 </h4>
-					<p>mpsum</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>20</h4>
-					<p>rasus</p>
-				</div>
+				<h3>Radiografia</h3>
 				<div class="clearfix"></div>
-		
 			</div>
 			</div>
 			
@@ -292,50 +232,60 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3-services-grid-bottom">
 			<div class="col-md-4 w3-services-grids1">
 			<div class="w3-services-grid4">
-							<i class="fa fa-heartbeat" aria-hidden="true"></i>
-				<h3>Clinica Cardiaca</h3>
-				<div class="w3-services-grid1-left">
-					<h4>25 </h4>
-					<p>ipsum</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>30</h4>
-					<p>basusx</p>
-				</div>
+				<h3>Ultrasonido</h3>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid5">
-							<i class="fa fa-flask" aria-hidden="true"></i>
-				<h3>Rayos X</h3>
-				<div class="w3-services-grid1-left">
-					<h4>35</h4>
-					<p>ipsum</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>25</h4>
-					<p>basusx</p>
-				</div>
+				<h3>Control de Vacunas</h3>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid6">
-							<i class="fa fa-ambulance" aria-hidden="true"></i>
-				<h3>Emergencias</h3>
-				<div class="w3-services-grid1-left">
-					<h4>40 </h4>
-					<p>ipsum</p>
-				</div>
-				<div class="w3-services-grid1-right">
-				<h4>45</h4>
-					<p>basusx</p>
-				</div>
+				<h3>Hospitalización</h3>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			
+			<div class="clearfix"></div>
+		</div>
+		</div>
+		<div class="w3-services-grids">
+			<div class="col-md-4 w3-services-grids1">
+			<div class="w3-services-grid1">
+				<h3>Baños Medicados</h3>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="col-md-4 w3-services-grids1 ">
+			<div class=" w3-services-grid2">
+				<h3>Farmacos</h3>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="col-md-4 w3-services-grids1">
+			<div class=" w3-services-grid3">
+				<h3>Ortopedia</h3>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			<div class="w3-services-grid-bottom">
+			<div class="col-md-4 w3-services-grids1">
+			<div class="w3-services-grid4">
+				<h3>Laboratorio Clinicio</h3>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="col-md-4 w3-services-grids1">
+			<div class=" w3-services-grid5">
+				<h3>Medicina Preventiva</h3>
+				<div class="clearfix"></div>
+			</div>
+			</div>
 			<div class="clearfix"></div>
 		</div>
 		</div>
@@ -446,7 +396,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="w3-address-right">
 								<h6>Correo Electronico</h6>
-								<p>Correo :<a href="mailto:example@email.com"> mail@example.com</a></p>
+								<p>Correo :<a href="mailto:hospitalanimal@hotmail.com"> hospitalanimal@hotmail.com</a></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -522,10 +472,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						easingType: 'linear' 
 						};
 					*/								
-					$().UItoTop({ easingType: 'easeOutQuart' });
+					/*	$().UItoTop({ easingType: 'easeOutQuart' }); */
 					});
 				</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				<!-- <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
 		<!-- //smooth scrolling-bottom-to-top -->
 		<script type="text/javascript">
 	jQuery(document).ready(function($) {

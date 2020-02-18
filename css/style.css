@@ -1,3 +1,18 @@
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+
 html, body{
 	margin:0;
 	font-size: 100%;
@@ -233,6 +248,12 @@ label{
 
 .banner3 {
     background: url(../images/fondocuatro.jpg)no-repeat center 0px;
+    background-size: cover;
+    height: 760px!important;
+}
+
+.banner4 {
+    background: url(../images/fondocinco.jpg)no-repeat center 0px;
     background-size: cover;
     height: 760px!important;
 }
@@ -1324,6 +1345,18 @@ div#services {
 	
 }
 .w3-agile-team-img-5 {
+	background:url(../images/e3.jpg) no-repeat 0px 0px;
+	background-size:cover;
+}
+.w3-agile-team-img-6 {
+	background:url(../images/e4.jpg) no-repeat 0px 0px;
+	background-size:cover;
+}
+.w3-agile-team-img-7 {
+	background:url(../images/e5.jpg) no-repeat 0px 0px;
+	background-size:cover;
+}
+.w3-agile-team-img-8 {
 	background:url(../images/e3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
